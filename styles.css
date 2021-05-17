@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 3rem;
+    /* justify-content: center; */
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(233, 233, 233);
+}
+
+.content{
+    margin-top: 3rem;
+    padding: 10px;
+    font-size: 0.9rem;
+    letter-spacing: 0.11rem;
+}
+
+h1{
+    color: rgb(46, 63, 93);
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: cursive;
+}
+
+h3{
+    color: #26293d;
+}
+
+.input{
+    height: 50px;
+    width: 100px;
+    color: rgb(54, 53, 53);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.submit-btn{
+
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: rgba(49, 75, 122, 0.829);
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+
+.submit-btn:hover{
+    color:rgba(49, 75, 122, 0.829);
+    background-color: white;
+    transition: all 0.3s linear ;
+}
+
+p{
+    margin-top: 1.7rem;
+}
+
+@media  screen and (min-width:700px) {
+    .container{
+        margin: auto 9rem;
+    }
+}
+
+@media  screen and (min-width:900px) {
+    .container{
+        margin: auto 20rem;
+    }
+}
